@@ -1,0 +1,16 @@
+{
+  "name": "carrierPidgeonNode",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "~4.13.4",
+    "body-parser": "~1.15.1",
+    "mtwitter": "1.6.4",
+    "twilio": "2.11.0"
+  },
+  "engines": {
+    "node": "4.6.0"
+  }
+}
