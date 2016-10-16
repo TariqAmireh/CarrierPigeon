@@ -20,10 +20,10 @@ public class App
 
         ConfigurationBuilder cf = new ConfigurationBuilder();
         cf.setDebugEnabled(true)
-                .setOAuthConsumerKey("7YsxA8FsW0YgLJitnaeux81V1")
-                .setOAuthConsumerSecret("r3HexuMnSOXiys66L5Y46N8D11B2xhzg6Ih2bjBoDOPgeEehWu")
-                .setOAuthAccessToken("772887561140174848-sFIPHxRohUZZDcRck6xNtH1TUW2MAVw")
-                .setOAuthAccessTokenSecret("JOhrCrN6WI721k9TOp2EstrOszRaQRnRNuo75HDHJwuuf");
+                .setOAuthConsumerKey("XXXXXXXX")
+                .setOAuthConsumerSecret("XXXXXXXX")
+                .setOAuthAccessToken("XXXXXXXX")
+                .setOAuthAccessTokenSecret("XXXXXXXX:");
 
         // no idea what this is either... just konw it's necessary
         TwitterFactory tf = new TwitterFactory(cf.build());
