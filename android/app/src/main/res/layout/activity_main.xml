@@ -19,15 +19,10 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="38dp"
-         -->
+         --><![CDATA[
          />
 
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="416dp"
-        android:src="@drawable/CarrierPidgeonAppIcon"
-        android:layout_x="115dp"
-        android:layout_y="-130dp" />
+    ]]>
 
     <EditText
         android:layout_width="wrap_content"
@@ -41,8 +36,8 @@
         android:inputType="text"
         android:imeOptions="actionGo"
         android:layout_centerHorizontal="true"
-        android:layout_x="88dp"
-        android:layout_y="301dp"
+        android:layout_x="60dp"
+        android:layout_y="270dp"
         android:backgroundTint="@color/white"/>
 
     <Button
@@ -54,9 +49,18 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:background="@drawable/rounded_button"
-        android:layout_x="119dp"
-        android:layout_y="375dp" />
+        android:layout_x="95dp"
+        android:layout_y="350dp"
+        android:onClick="sendMessage" />
 
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="416dp"
+        android:src="@drawable/carrierpigeon"
+        android:layout_x="95dp"
+        android:layout_y="-130dp"
+        android:elevation="15dp" />
 
     <TextView
         android:layout_width="292dp"
@@ -64,7 +68,7 @@
         android:text="CarrierPidgeon © 2016"
         android:textColor="@color/white"
         android:id="@+id/textView"
-        android:layout_x="120dp"
-        android:layout_y="606dp" />
+        android:layout_y="530dp"
+        android:layout_x="95dp" />
 
 </AbsoluteLayout>
